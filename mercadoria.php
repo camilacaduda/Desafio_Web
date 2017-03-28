@@ -9,7 +9,9 @@
         if (!$result) {
             die( mysqli_error($BD));
         }
-        var_dump($result);
+        echo "<script> alert('Salvo com Sucesso!') </script>"
+        header('Location: ./?page=list');
+        //var_dump($result);
         //die;
 
     }

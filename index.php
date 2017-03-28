@@ -4,7 +4,7 @@
 
 /*AQUI ABRE CONEXÃO COM O BANCO, uma especie de porta que comunica
 o banco de dados com o sistema*/
-$BD = mysqli_connect('localhost','root','','desafio_web') ; 
+$BD = mysqli_connect('gk90usy5ik2otcvi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com','vkdb3vzev6ek31bz','jcwhpls9hwxlk2ed','c2v4lib3jdfo3hs7') ; 
 $page = $_GET["page"];
 
 ?>
